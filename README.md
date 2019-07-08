@@ -15,3 +15,4 @@
 * eslint to scream at us whenever we're doing something wrong. The other eslint packages are to help it work with babel and react  ```npm i -D eslint babel-eslint eslint-plugin-react```
 * Convention is to place all modular code under the ```src``` directory
 * Another convention is to place all html,css and js being served on the client in the ```public```
+* ```api``` folder houses the backend server, express
