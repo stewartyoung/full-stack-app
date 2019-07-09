@@ -16,3 +16,4 @@
 * Convention is to place all modular code under the ```src``` directory
 * Another convention is to place all html,css and js being served on the client in the ```public```
 * ```api``` folder houses the backend server, express
+* ```index``` files in each of public, src and api folders is to signify the "starting point" of each of the directories
