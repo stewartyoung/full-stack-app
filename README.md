@@ -18,3 +18,4 @@
 * ```api``` folder houses the backend server, express
 * ```index``` files in each of public, src and api folders is to signify the "starting point" of each of the directories
 * ```npm start``` is a script we have made in ```package.json``` to make our files render to the server
+* __Had some significant problems configuring babel-node and using ES6 imports, but fixed using this medium article:  https://medium.com/@JedaiSaboteur/import-export-babel-and-node-a2e332d15673__ 
