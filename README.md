@@ -24,3 +24,4 @@
 * We first make a http and https server using the corresponding node modules
 * Whilst http and https are quick and simple modules to get started, continuing with just http/https modules would leed to a lot of boilerplate code. This is where express comes in, a method of abstracting server code
 * Remember that the server is there not to return silly little console logs, but to render the html, css and js to the DOM
+* We use ejs, which is a simple templating language that lets you generate HTML markup with plain JavaScript.
