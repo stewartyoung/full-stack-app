@@ -6,7 +6,7 @@
 * Node Web Server (express) 
 * React Front End
 
-## Notes
+## Part 1: Setting up project and dependencies
 * Node dev dependencies are only required in development, but a different set of dependencies will be required for deployment
 * webpack package compiles modules wwith dependencies into static assets, a compiler of sorts (e.g. jsx into js) via the ```webpack.config.js``` file. Uses babel within this file to convert jsx files also
 * Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. The "@" sytax is a bit like ```from class import class.object```  
@@ -19,3 +19,7 @@
 * ```index``` files in each of public, src and api folders is to signify the "starting point" of each of the directories
 * ```npm start``` is a script we have made in ```package.json``` to make our files render to the server
 * __Had some significant problems configuring babel-node and using ES6 imports, but fixed using this medium article:  https://medium.com/@JedaiSaboteur/import-export-babel-and-node-a2e332d15673__ 
+
+## Chapter 2: Creating the server
+* We first make a http and https server using the corresponding node modules
+* Whilst http and https are quick and simple modules to get started, continuing with just http/https modules would leed to a lot of boilerplate code. This is where express comes in, a method of abstracting server code
