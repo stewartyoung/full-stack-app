@@ -20,6 +20,6 @@
 * ```npm start``` is a script we have made in ```package.json``` to make our files render to the server
 * __Had some significant problems configuring babel-node and using ES6 imports, but fixed using this medium article:  https://medium.com/@JedaiSaboteur/import-export-babel-and-node-a2e332d15673__ 
 
-## Chapter 2: Creating the server
+## Part 2: Creating the server
 * We first make a http and https server using the corresponding node modules
 * Whilst http and https are quick and simple modules to get started, continuing with just http/https modules would leed to a lot of boilerplate code. This is where express comes in, a method of abstracting server code
