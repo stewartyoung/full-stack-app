@@ -26,3 +26,5 @@
 * Remember that the server is there not to return silly little console logs, but to render the html, css and js to the DOM
 * We use ejs, which is a simple templating language that lets you generate HTML markup with plain JavaScript. For example, using a javascript function to output a random number as html. __Note: A very large array of templating languages and frameworks exist__
 * Express by default looks for ejs in ```views``` folder at root level, which is why we've created it the way we have
+
+## Part 2: Creating the react front-end
