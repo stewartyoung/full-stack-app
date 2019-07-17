@@ -28,3 +28,4 @@
 * Express by default looks for ejs in ```views``` folder at root level, which is why we've created it the way we have
 
 ## Part 2: Creating the react front-end
+* React front end lives in src/index.js
