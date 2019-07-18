@@ -29,3 +29,4 @@
 
 ## Part 2: Creating the react front-end
 * React front end lives in src/index.js
+* Ran into some webpack and babel problems during development, resolving using https://medium.com/hackernoon/how-to-build-a-react-project-from-scratch-using-webpack-4-and-babel-56d4a26afd32
